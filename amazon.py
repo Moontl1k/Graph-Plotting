@@ -7,7 +7,7 @@ from tqdm.notebook import tqdm
 plt.style.use('ggplot')
 import nltk
 
-df = pd.read_csv(r"C:\Users\Sambh\Desktop\Work\College\Codes\project\dataset/sample30.csv")
+df = pd.read_csv(r"/sample30.csv")
 print(df.shape)
 df = df.head(1000)
 print(df.shape)
